@@ -1,63 +1,60 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #6c029d;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+.app-wrap{
+    font-size: 5vh;
+}
+#city{
+    margin-top: 30px;
+    font-size: 5vh;
+}
+#date{
+    font-size: 3vh;
+}
+#temp{
+    margin-top: 40px;
+    font-size: 12vh;
+    text-shadow: 5px 5px black;
+    
+}
+#weather{
+    margin-top: 30px;
+    font-size: 6vh;
+    font-style: italic;
+}
+#hi-low{
+    margin-top: 10px;
+    font-size: 4vh;
+}
+input{
+    border: 0px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    border: 3px solid black;
+}
+button{
+    border: 0px;
+    height: 35px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
     background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
+    color: black;
+}
      
     
